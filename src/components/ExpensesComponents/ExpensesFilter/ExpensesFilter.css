@@ -1,0 +1,23 @@
+.expenses-filter{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expenses-filter__select{
+    padding: 1rem 2rem;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.expenses-filter__description{
+    font-size: 1rem; 
+    color: #fafafa;
+    font-weight: bold;
+}
